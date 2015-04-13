@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="css/slicknav.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="less-framework.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -33,90 +34,129 @@
     
     <nav class="nav-bar">
         <div class="nav-hold">
-            <a href="#" class="nav-logo">My awesome logo</a>
-            <a id="nav-menu" class="nav-menu" href="#">&#9776;</a>
+            <a href="#" class="nav-menu">&#9776;</a>
+            <a class="logo" href="#">My Awesome logo</a>
             <ul class="nav-list" id="nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Find Me</a></li>
                 <li><a href="#">FAQ</a></li>
             </ul>
         </div>
     </nav>
     
     <div class="container">
-        <h1 id="about-me">About Seed</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus provident, obcaecati et amet, consectetur recusandae minima corrupti accusamus quasi unde! Esse dicta perspiciatis sit, aut expedita distinctio laboriosam reiciendis? Ad, assumenda. Inventore enim eos fuga ratione, voluptatibus aliquid deleniti unde excepturi quas dicta consequatur nihil modi provident veritatis dolores id maxime fugit nisi officiis minus tempora perferendis error ut necessitatibus. Blanditiis repudiandae nesciunt veritatis doloremque dolores voluptates fugit quas qui nemo possimus omnis quia, temporibus odit nobis labore ea, obcaecati ab a et. Vero ratione, tenetur nostrum voluptatum neque aliquid fugiat quidem atque molestiae, beatae obcaecati deleniti totam, pariatur odit.</p>
-        
-        <h2 id="cat-pictures">Product Pic</h2>
-    </div>
-    <div class="image-grid">
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>
-       <a href="#" class="image-grid-square"><img src="http://placekitten.com/g/300/300" alt=""></a>  
-        
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p class="columns-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed sit veniam adipisci        fugit cupiditate, possimus nemo alias cumque dolor dolorem praesentium dolorum doloribus ducimus, porro minima commodi, earum explicabo illo officiis accusantium maxime repudiandae quo? Eaque facere saepe earum quam porro voluptate necessitatibus magni exercitationem. Voluptatibus ullam vitae qui labore quod animi voluptate, voluptas magni reiciendis eos officia. Commodi natus excepturi dolorum labore. Qui ullam beatae quis laboriosam dolores, architecto, eaque quas, optio delectus quasi id dolore aliquid adipisci quia odio illum expedita eligendi! Voluptates porro quos dignissimos nisi placeat est eligendi magni impedit optio, possimus, excepturi ratione repellendus. Quod aut, libero eaque? Dolorem tenetur rerum laborum rem dignissimos doloremque beatae adipisci. Magnam suscipit illo et neque esse deleniti, vitae unde cum soluta! Veritatis labore aperiam suscipit. Ducimus, quas. Cumque recusandae error reprehenderit quas ea at delectus, quasi, vitae culpa architecto, cupiditate voluptate voluptatum beatae totam alias? Incidunt porro iusto recusandae nulla alias veritatis, enim consequatur aliquam, placeat distinctio repudiandae quas vitae nihil eius ex nesciunt soluta pariatur voluptatum magni debitis dolorem nostrum, deleniti possimus neque dicta. Doloremque mollitia temporibus fuga sed tenetur voluptates id sequi amet, voluptatem qui non quo ad sint eveniet, blanditiis natus commodi rem voluptatum similique.</p>
     </div>
     
-    <div class="form-container">
-       <h2 id="contact">Contact</h2>
-       <form class="contact-form">
+    <div class="container gallery">
+       <h2>Photo Gallery</h2>
+           <a class="fancybox" rel="gallery1"  href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg">
+               <img src="http://placekitten.com/g/300/300" alt="Cat">
+           </a>
+           <a class="fancybox" rel="gallery1"  href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg">
+               <img src="http://placekitten.com/g/300/300" alt="Cat">
+           </a>
+           <a class="fancybox" rel="gallery1"  href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg">
+               <img src="http://placekitten.com/g/300/300" alt="Cat">
+           </a>
+           <a class="fancybox" rel="gallery1"  href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg">
+               <img src="http://placekitten.com/g/300/300" alt="Cat">
+           </a>
+           <a class="fancybox" rel="gallery1"  href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg">
+               <img src="http://placekitten.com/g/300/300" alt="Cat">
+           </a>
+           <a class="fancybox" rel="gallery1"  href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg">
+               <img src="http://placekitten.com/g/300/300" alt="Cat">
+           </a>
+           <a class="fancybox" rel="gallery1"  href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg">
+               <img src="http://placekitten.com/g/300/300" alt="Cat">
+           </a>
+           <a class="fancybox" rel="gallery1"  href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg">
+               <img src="http://placekitten.com/g/300/300" alt="Cat">
+           </a>
+           <a class="fancybox" rel="gallery1"  href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg">
+               <img src="http://placekitten.com/g/300/300" alt="Cat">
+           </a>
+           <a class="fancybox" rel="gallery1"  href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg">
+               <img src="http://placekitten.com/g/300/300" alt="Cat">
+           </a>
+       
+       
+   
+       
+    </div>
+    
+    <div class="container">
+        <div class="service">
+            <h2>Lorem ipsum dolor sit.
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta id quasi est, rerum quisquam laboriosam. Eum, ea officia, itaque illo, rerum ipsam libero vel fugiat repudiandae doloribus esse sed. Eius sed sequi laudantium, rem cupiditate maxime omnis nobis quos harum architecto, eaque laboriosam quas quia accusantium fuga numquam rerum tenetur in alias distinctio corporis suscipit id! Asperiores, eos est, ipsam necessitatibus inventore assumenda. Id architecto deserunt eos magni in! Accusantium optio esse ipsum, deleniti enim ad illo dolorum ratione? Ea earum ipsa commodi? Accusamus ut dolores sed iure, quos! Voluptate incidunt minus odio qui. Porro ab, nobis odit. Assumenda, magnam.</p>
+            </h2>
+        </div>
+        <div class="service">
+            <h2>Error natus, ipsa earum.
+                <p>Nulla magni odit voluptatibus est officiis. Veritatis assumenda eos reiciendis, porro ipsum maxime tempore tempora voluptas autem, est facilis in. Fugit officia cum asperiores tempore, voluptatem, eveniet delectus nihil corrupti et, quo molestiae quos! Nemo, fugit. Quasi ullam rem placeat voluptates voluptatem dolor error aliquam consequuntur, explicabo omnis, vel tenetur provident rerum laudantium dolores quod assumenda accusamus id corporis ducimus excepturi. Nisi saepe quae tenetur! Mollitia repudiandae, obcaecati molestias perspiciatis odio assumenda sunt sint perferendis? Porro accusantium et incidunt sit earum magni quidem architecto voluptates sint maiores eaque quo similique id, harum doloremque quod odit. Ex quam mollitia quisquam magni?</p>
+            </h2>
+        </div>
+    </div>
+    
+    
+    <div class="container">
+       <h2>Portfolio</h2>
           
-          <!--Name-->
-            <div class="form-section">
-               <label for="name">Name</label>
-               <input type="text" name="name" />
-           </div>
-           
-           <!--Email-->
-            <div class="form-section">
-               <label for="email">Email</label>
-               <input type="text" name="email" />
-           </div>
-           
-           <!--Website-->
-            <div class="form-section">
-               <label for="name">Name</label>
-               <input type="text" name="website" />
-           </div>
-           
-           <!--Phone-->
-            <div class="form-section">
-               <label for="phone">Phone</label>
-               <input type="text" name="phone" />
-           </div>
+          <ul class="portfolio-menu">
+              <li class="filter" data-filter="all">All</li>
+              <li class="filter" data-filter=".category-1">Category-1</li>
+              <li class="filter" data-filter=".category-2">Category-2</li>
+              <li class="filter" data-filter=".category-3">Category-3</li>
+          </ul>             
+
+        <div class="portfolio">
+            <div class="mix category-1">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
+            <div class="mix category-2">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
+            <div class="mix category-3">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
+            <div class="mix category-3">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
+            <div class="mix category-1">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
+            <div class="mix category-3">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
+            <div class="mix category-2">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
+            <div class="mix category-2">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
+            <div class="mix category-1">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
+            <div class="mix category-1">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
+            <div class="mix category-1">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
+            <div class="mix category-3">
+                <a class="fancybox"  rel="gallery2" href="http://sohaga.com/wp-content/uploads/2015/01/14335142622_1999131048_o.jpg"><img src="http://placekitten.com/g/300/300" alt="Cat"></a>
+            </div>
             
-            <!--Message-->
-           <div class="form-section message-section">
-             <label for="message">Message</label>
-               <textarea  name="message" class="message-textarea"></textarea>
-           </div>
-           
-           <!--Submit-->
-           <div class="form-section submit-section">
-               <input type="submit" value="Submit" class="submit-button" />
-           </div>
-           
-           
-           
-       </form>
-        
+        </div>
     </div>
     
-    <div class="footer">
-        
+    <div class="container">
+        <p>&copy; <a href="http://sohaga.com"> WWW.SOHAGA.COM</a></p>
     </div>
-    
 
 
 
@@ -136,6 +176,9 @@
         <script src="js/jquery.fitvids.js"></script>
         <script src="js/jquery.slicknav.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <script src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
         
         <script src="js/main.js"></script>
 

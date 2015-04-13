@@ -1,49 +1,44 @@
 a, a:hover{
-    text-decoration: none;
+    text-decoration: none;   
 }
-
 
 .nav-hold,
-.container,
-.image-grid,
-.form-container,
-.footer{
-    width: 95%;
-    max-height: 1000px;
+.container{
+    width: 95%;   
     margin: 0 auto;
+
 }
 
-
 .nav-bar{
-    width: 100%;
-    background: #222;
+    width:100%;
+     background: #222;
 }
 
 .nav-hold{
     overflow: hidden;
 }
 
-.nav-logo{
-    float: left;
-    display: block;
+.logo{
     padding: 20px 10px;
+    display: block;
+    float: left;
     color: #f9f9f9;
     font-weight: 600;
-    
+    font-size: 18px;
 }
 
 .nav-list{
-    float: right; 
+    float: right;
 }
 
 .nav-list li{
     float: left;
 }
 
-.nav-list li a{
-    padding:20px 10px;
+.nav-list a{
     display: block;
-    color:#f9f9f9;
+    padding: 20px 10px;
+    color: #f9f9f9;
 }
 
 
@@ -51,102 +46,68 @@ a, a:hover{
     display: none;
 }
 
-
-
-.container{
-    padding:50px 10px 10px 10px;
+.container h2{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:20px;
+    font-size:22px;
+    font-weight: 700;
 }
 
-.container h1,
-.container h2,
-.form-container h2
-{
-    font-size:2em;
-    padding-top:20px;
-    padding-bottom:20px;
-    font-weight: 600;
-}
-
-.container p{
-    line-height: 1.35em;
+.container p.columns-2{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:20px;
+    font-size: 14px;
+    line-height: 22px;
     .columns:2;
     -webkit-columns:2;
     -moz-columns:2;
     -o-columns:2;
     -ms-columns:2;
-}
-
-.container h2{
-    margin-top:30px;
-}
-
-.image-grid{
-    overflow: hidden;
-    padding: 5px;
-}
-
-.image-grid-square{
-    width:20%;
-    float: left;
-    padding:5px;
-    overflow: hidden;
-}
-
-.image-grid-square img{
-    width:100%;
-    float: left;
-}
-
-.footer{
-    height: 200px;
-    display: block;
-}
-
-/*Form*/
-
-.form-section{
-     width: 25%;
-    float: left;
-    padding:5px;
-}
-
-.message-section,
-.submit-section{
-    width:100%;
-}
-
-
-.form-section label{
-    display: block;
-    margin-bottom: 2px;
-}
-
-.form-section input,
-.form-section textarea{
-    width:100%;
-    padding: 5px 10px;
-    font-size: 1.11em;
-    line-height: 1.3em;
+    text-align: justify;
     
 }
 
-.form-section textarea{
-    resize: none;
-    height: 150px;
+p{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:20px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.gallery{
+    width: 100%;
+    text-align: center;
+
+}
+
+.gallery a img{
+    width: 19%;
+    padding: 5px;
+}
+
+.service{
+    float: left;
+    width: 50%;
+}
+
+
+.mix{
+    display: none;    
+}
+
+ul.portfolio-menu li{
+    display: inline-block;
     padding: 10px;
 }
 
-.form-section input.submit-button{
-    float: none;
+.filter{
+    background: #CACACA; 
     display: block;
-    border:none;
-    outline: none;
-    background: #111;
-    color:#f9f9f9;
-    cursor: pointer;
-    max-width: 500px;
-    margin: 0 auto;
+    margin-bottom: 20px;
+    
 }
-
 
 
